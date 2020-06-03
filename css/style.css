@@ -11,6 +11,8 @@
 
 
 body{
+    margin: 0;
+
     background-image: url("../img/bg-desktop.svg");
     background-size: 100%;
     background-color: var(--violetBack);
@@ -91,7 +93,6 @@ a{
     visibility: visible;
 }
 .modal-content{
-    
     width: 350px;
     height: 200px;
     background-color: white;
@@ -125,7 +126,7 @@ input{
     border: none;
     border-radius: 100px;
     font-family: "Open Sans";
-    padding: 13px 57px;
+    padding: 10px 57px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -139,14 +140,15 @@ input{
 }
 h2{
     font-family: 'Open Sans';
-    font-size: 25px;
+    font-size: 20px;
 }
 
 
 
 
 @media (max-width: 900px) {
-    body {
+        body {
+        margin: 0;
         background-color: var(--violetBack);
         background-image: url("../img/bg-mobile.svg");
         background-repeat: no-repeat;
@@ -177,7 +179,7 @@ h2{
        
     }
     .titulo{
-        margin: 0 auto;
+    
         justify-content: center;
         position: relative;
         text-align: center;
