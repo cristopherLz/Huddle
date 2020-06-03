@@ -10,14 +10,14 @@
 }
 
 
-
 body{
-
     background-image: url("../img/bg-desktop.svg");
+    background-size: 100%;
     background-color: var(--violetBack);
     background-repeat: no-repeat;
   
 }
+
 .cabezera{
    margin-top: 3rem;
 }
@@ -27,15 +27,16 @@ body{
 
 }
 .mockpus{
-    width: 45%;
-    margin-top: 5rem;
+    width: 50%;
+    margin-top: 2rem;
     margin-left: 6.5rem;
     margin-right: 2rem;
     float: left;
 }
 .titulo{
-    margin-top: 90px;
-    margin: 90px auto;
+    position: relative;
+    margin-top: 9rem;
+    text-justify: center;
     width: 90%;
     color: white;
  
@@ -142,8 +143,9 @@ h2{
 }
 
 
-@media (max-width: 900px) {
 
+
+@media (max-width: 900px) {
     body {
         background-color: var(--violetBack);
         background-image: url("../img/bg-mobile.svg");
@@ -151,6 +153,7 @@ h2{
 
    
       }
+
     .modal-content{
         width: 80%;
         height: 200px;
@@ -166,15 +169,17 @@ h2{
         margin-left: 20px;
         
     }
-
     .mockpus{
-        width: 90%;
+        width: 92%;
         margin-top: 1rem;
-        margin-left: 20px;
+            margin-left: 1rem;
         margin-bottom: 30px;
        
     }
     .titulo{
+        margin: 0 auto;
+        justify-content: center;
+        position: relative;
         text-align: center;
       }
     h1{
