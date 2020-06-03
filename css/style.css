@@ -4,13 +4,8 @@
    
 }
 
-*{
-    margin: 0;
-    padding: 0;
-}
-
-
 body{
+    margin: 0;
     background-image: url("../img/bg-desktop.svg");
     background-size: 100%;
     background-color: var(--violetBack);
@@ -50,6 +45,7 @@ h2{
     font-size: 1.9em;
 }
 p{
+
     font-family: 'Open Sans';
     font-size: 15px;
     margin-bottom: 2rem;
@@ -91,7 +87,6 @@ a{
     visibility: visible;
 }
 .modal-content{
-    
     width: 350px;
     height: 200px;
     background-color: white;
@@ -125,7 +120,7 @@ input{
     border: none;
     border-radius: 100px;
     font-family: "Open Sans";
-    padding: 13px 57px;
+    padding: 10px 57px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -139,21 +134,23 @@ input{
 }
 h2{
     font-family: 'Open Sans';
-    font-size: 25px;
+    font-size: 20px;
 }
 
 
 
 
 @media (max-width: 900px) {
+
     body {
+        margin: 0;
         background-color: var(--violetBack);
         background-image: url("../img/bg-mobile.svg");
         background-repeat: no-repeat;
-
-   
       }
-
+    .content{
+        content: 100%;
+    }
     .modal-content{
         width: 80%;
         height: 200px;
@@ -172,12 +169,12 @@ h2{
     .mockpus{
         width: 92%;
         margin-top: 1rem;
-            margin-left: 1rem;
+        margin-left: 1rem;
         margin-bottom: 30px;
        
     }
     .titulo{
-        margin: 0 auto;
+    
         justify-content: center;
         position: relative;
         text-align: center;

@@ -1,7 +1,7 @@
 
-    var open = document.getElementById('open')
-    var moda = document.getElementById('modal')
-    var content = document.getElementById('content')
+var open = document.getElementById('open')
+var moda = document.getElementById('modal')
+var content = document.getElementById('content')
 
 open.addEventListener('click',
     function(){
