@@ -13,7 +13,7 @@ body{
   
 }
 .cabezera{
-   margin-top: 5%;
+   margin-top: 1rem;
 }
 .logo{
     margin-left: 6.5rem;
@@ -22,7 +22,7 @@ body{
 }
 .mockpus{
     width: 45%;
-    margin-top: 3rem;
+    margin-top: 6rem;
     margin-left: 6.5rem;
     margin-right: 2rem;
     float: left;
@@ -76,13 +76,16 @@ a{
         margin: 2.2rem;
         padding: 0;
       }
+
       .logo{
+        margin-top: -5rem;
         width: 150px;
         margin-left: 20px;
         
     }
     .mockpus{
         width: 90%;
+        margin-top: 1rem;
         margin-left: 20px;
         margin-bottom: 30px;
     }
