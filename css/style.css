@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600&display=swap');
+:root{
+    --violetBack: hsl(257, 40%, 49%);
+}
+  
+
+body{
+
+    background-image: url("../img/bg-desktop.svg");
+    background-color: var(--violetBack);
+    background-repeat: no-repeat;
+
+  
+}
+.cabezera{
+   margin-top: 5%;
+}
+.logo{
+    margin-left: 6.5rem;
+    width: 17%;
+
+}
+.mockpus{
+    width: 45%;
+    margin-top: 3rem;
+    margin-left: 6.5rem;
+    margin-right: 2rem;
+    float: left;
+}
+.titulo{
+    margin-top: 90px;
+    margin: 90px auto;
+    width: 90%;
+    color: white;
+    text-justify: auto;
+}
+h1 {
+    font-family: 'Open Sans';
+    font-size: 1.9em;
+  }
+h2{
+    font-family: 'Open Sans';
+    font-size: 1.9em;
+}
+p{
+    font-family: 'Open Sans';
+    font-size: 15px;
+    margin-bottom: 2rem;
+}
+button{
+    font-family: 'Open Sans';
+    background-color: #fff;
+    border: none;
+    border-radius: 100px;
+    color: hsl(257, 40%, 49%);
+    font-family: "Open Sans";
+    padding: 13px 57px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 100%;
+    font-weight: bold;
+    box-shadow: 2px 2px 8px 1px #4D3B7E;
+    outline: none;
+}
+a{
+    text-decoration: none;
+    color:#4D3B7E;
+}
+@media (max-width: 900px) {
+    body {
+        background-color: hsl(257, 40%, 49%);
+        color: #ffffff;
+        background-image: url("../img/bg-mobile.svg");
+        background-repeat: no-repeat;
+        margin: 2.2rem;
+        padding: 0;
+      }
+      .logo{
+        width: 150px;
+        margin-left: 20px;
+        
+    }
+    .mockpus{
+        width: 90%;
+        margin-left: 20px;
+        margin-bottom: 30px;
+    }
+      .titulo{
+        text-align: center;
+      }
+      h1{
+      
+        font-family: "Poppins";
+        font-size: 20px;
+      }
+      h2{
+        font-family: "Poppins";
+        font-size: 22px;
+      
+      }
+}
