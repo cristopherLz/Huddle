@@ -32,7 +32,7 @@ body{
     margin: 90px auto;
     width: 90%;
     color: white;
-    text-justify: auto;
+ 
 }
 h1 {
     font-family: 'Open Sans';
@@ -77,29 +77,32 @@ a{
         padding: 0;
       }
 
-      .logo{
+    .logo{
         margin-top: -5rem;
         width: 150px;
         margin-left: 20px;
         
     }
+
     .mockpus{
         width: 90%;
         margin-top: 1rem;
         margin-left: 20px;
         margin-bottom: 30px;
+       
     }
       .titulo{
+        background-color: black;
         text-align: center;
       }
       h1{
       
         font-family: "Poppins";
-        font-size: 20px;
+        font-size: 1.25rem;
       }
       h2{
         font-family: "Poppins";
-        font-size: 22px;
+        font-size: 1.25rem;
       
       }
 }
