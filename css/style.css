@@ -7,190 +7,63 @@
 *{
     margin: 0;
     padding: 0;
-}
-
-
-body{
-    margin: 0;
-
-    background-image: url("../img/bg-desktop.svg");
-    background-size: 100%;
-    background-color: var(--violetBack);
-    background-repeat: no-repeat;
-  
-}
-
-.cabezera{
-   margin-top: 3rem;
-}
-.logo{
-    margin-left: 6.5rem;
-    width: 17%;
-
-}
-.mockpus{
-    width: 50%;
-    margin-top: 2rem;
-    margin-left: 6.5rem;
-    margin-right: 2rem;
-    float: left;
-}
-.titulo{
-    position: relative;
-    margin-top: 9rem;
-    text-justify: center;
-    width: 90%;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
     color: white;
+}
+body{
+    background-color: var(--violetBack);
+    background-image: url(../img/bg-mobile.svg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+.contenedor{
+    width: 90%;
+    height: 100vw;
+    margin: 0 auto;
+   
+}
+.cabezera img{
+    width: 10rem;
+    margin-top: 2rem;
+}
+.contenedor.info{
+    margin-top: 3rem;
+    width: 90%;
+    
+
+}
+.info img.mockpus{
+    margin-top: 2em;
+    width: 100%;
+}
+.info .titulo{
+    font-size: 0.8rem;
+    text-align: center;
+    margin-top: 2rem;
  
 }
-h1 {
-    font-family: 'Open Sans';
-    font-size: 1.9em;
-  }
-h2{
-    font-family: 'Open Sans';
-    font-size: 1.9em;
+.titulo p{
+    word-spacing:size;
+    margin-top: 1em;
 }
-p{
-    font-family: 'Open Sans';
-    font-size: 15px;
-    margin-bottom: 2rem;
-}
-.registro{
-    font-family: 'Open Sans';
+
+
+button{
+    margin-top: 1.5em;
     background-color: #fff;
     border: none;
     border-radius: 100px;
     color: var(--violetBack);
-    font-family: "Open Sans";
-    padding: 13px 57px;
-    text-align: center;
-    text-decoration: none;
+    padding: 1em 6em;
     display: inline-block;
     font-size: 100%;
     font-weight: bold;
-    box-shadow: 2px 2px 8px 1px var(--violetBack);
-    outline: none;
+    box-shadow: 2px 2px 8px 1px rgb(34, 34, 34);
 }
-a{
+button a{
+
     text-decoration: none;
-    color:#4D3B7E;
-}
-.bg-modal{
-    width: 100%;
-    height: 100%;
-    background-color:rgba(0, 0, 0, 0.7);
-    position: absolute;
-    top: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    visibility: hidden;
-  
-}
-/* Animate model Register */
-.bg-modal.active{
-    visibility: visible;
-}
-.modal-content{
-    width: 350px;
-    height: 200px;
-    background-color: white;
-    border-radius: 10px;
-    text-align: center;
-    padding: 30px;
-    opacity: 0;
-    transition: 1s ease all;
-    
-
-}
-input{
-    font-weight: 500;
-    font-family: 'Open Sans',sans-serif;
-    font-size: 12px;
-    width: 50%;
-    display: block;
-    margin: 30px auto ;
-    display: block;
-    margin: 15px auto;
-    border: 1px solid var(--violetBack);
-    border-radius: 30px;
-    width: 255px;
-    height: 1px;
-    outline: none;
-    padding: 20px;
-}
-.login{
-    font-family: 'Open Sans';
-    background-color: var(--violetBack);
-    border: none;
-    border-radius: 100px;
-    font-family: "Open Sans";
-    padding: 10px 57px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 100%;
-    font-weight: bold;
-    outline: none;
-    box-shadow: 0 5px 5px 0 rgb(139, 139, 139);
-}
-.clickRegis{
-    color: white;
-}
-h2{
-    font-family: 'Open Sans';
-    font-size: 20px;
-}
-
-
-
-
-@media (max-width: 900px) {
-        body {
-        margin: 0;
-        background-color: var(--violetBack);
-        background-image: url("../img/bg-mobile.svg");
-        background-repeat: no-repeat;
-
-   
-      }
-
-    .modal-content{
-        width: 80%;
-        height: 200px;
-        background-color: white;
-        border-radius: 10px;
-        text-align: center;
-        padding: 30px;
-    
-    }
-
-    .logo{
-        width: 150px;
-        margin-left: 20px;
-        
-    }
-    .mockpus{
-        width: 92%;
-        margin-top: 1rem;
-            margin-left: 1rem;
-        margin-bottom: 30px;
-       
-    }
-    .titulo{
-    
-        justify-content: center;
-        position: relative;
-        text-align: center;
-      }
-    h1{
-        font-family: "Poppins", sans-serif;
-        font-size: 1.5rem;
-        font-weight: 400;
-      }
-
-      
-
-
+    color: var(--violetBack);
 }
