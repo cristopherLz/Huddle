@@ -86,13 +86,20 @@ button a{
     .info{
         display: grid;
         align-items: center;
-        grid-template-columns: 1fr  1fr;
+        grid-template-columns: 1fr 1fr;
         
     }
 
     .info .titulo{
+        width: 80%;
         margin-left: 3em;
         text-align: left;
+    }
+    h1{
+        font-size: 28px;
+    }
+    p{
+        font-size: 18px;
     }
  
 }
