@@ -68,7 +68,7 @@ button a{
     text-decoration: none;
     color: var(--violetBack);
 }
-@media screen and (min-width: 768px){
+@media screen and (min-width: 900px){
     .contenedor{
         width: 90%;
         margin: 0 auto;
@@ -86,12 +86,17 @@ button a{
     .info{
         display: grid;
         align-items: center;
-        grid-template-columns: 1fr 1fr;
-        
+        grid-template-columns: 60% 1fr;
     }
 
+    .info img.mockpus{
+        margin-top: 2em;
+        width: 100%;
+    }   
+
+
     .info .titulo{
-        width: 80%;
+
         margin-left: 3em;
         text-align: left;
     }
