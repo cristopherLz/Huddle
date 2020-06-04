@@ -25,7 +25,7 @@ body{
 }
 .cabezera img{
     width: 10rem;
-    margin-top: 2rem;
+    margin-top: 2em;
 }
 .info img.mockpus{
     margin-top: 2em;
@@ -33,16 +33,16 @@ body{
 }
 
 .contenedor.info{
-    margin-top: 3rem;
+    margin-top: 2em;
     width: 90%;
     
 
 }
 
 .info .titulo{
-    font-size: 0.8rem;
+    font-size: 0.8em;
     text-align: center;
-    margin-top: 2rem;
+    margin-top: 2em;
  
 }
 .titulo p{
@@ -55,7 +55,7 @@ button{
     margin-top: 1.5em;
     background-color: #fff;
     border: none;
-    border-radius: 100px;
+    border-radius: 6.25em;
     color: var(--violetBack);
     padding: 1em 6em;
     display: inline-block;
